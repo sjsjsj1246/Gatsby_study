@@ -14,6 +14,7 @@
     "gatsby-plugin-sharp": "^3.2.0",
     "gatsby-plugin-typescript": "^3.2.0",
     "gatsby-source-filesystem": "^3.2.0",
+    "gatsby-transformer-remark": "^3.2.0",
     "gatsby-transformer-sharp": "^3.2.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "prettier": "2.2.1",
+    "ts-node": "^9.1.1",
     "typescript": "^4.2.3"
   },
   "keywords": [
@@ -42,6 +44,6 @@
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://ithub.com/gatsbyjs/gatsby/issues"
   }
 }

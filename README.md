@@ -4,7 +4,7 @@
 
 gatsby 공부용 레포입니다.
 
-## 정리
+## 초기 설정
 
 - 프로젝트 구조
 
@@ -75,3 +75,28 @@ gatsby 공부용 레포입니다.
     "useTabs": false
   }
   ```
+
+## Markdown 파일로 페이지 생성하기
+
+- gatsby-node.js도 typescript로 작성해보자
+  - yarn add -D ts-node
+  ```js
+  require('ts-node').register();
+  const { createPages } = require('./src/lib/createPages');
+  ```
+  - CreatePagesArgs 통해 페이지 추가
+  - yarn add gatsby-transformer-remark
+  ```js
+      {
+        resolve: 'gatsby-source-filesystem',
+        options: {
+            name: 'posts',
+            path: `${__dirname}/posts`,
+        },
+    },
+    `gatsby-transformer-remark`,
+  ```
+
+## GraphQL UI 사용
+
+- http://localhost:8000/\_\_\_graphql
